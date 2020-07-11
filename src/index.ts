@@ -27,7 +27,7 @@ export async function postChat<T>({
   parsed.forEach((value, i) => {
     const nextValue = parsed[i + 1];
 
-    switch (parsed[i]) {
+    switch (value) {
       case 'curl': {
         config.url = nextValue;
         break;
