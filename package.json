@@ -5,7 +5,11 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^14.0.22",
+    "@types/shell-quote": "^1.7.0",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "shell-quote": "^1.7.2"
   }
 }
